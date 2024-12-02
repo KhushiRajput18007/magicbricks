@@ -8,6 +8,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);;
 }
 
 .navbar a {
@@ -121,7 +122,72 @@ body {
     }
   }
 .add{
-    margin-left: 144px;
-    
+    margin-left: 310px;
+    margin-top:70px;
+    font-family: Montserrat, Arial, sans-serif;
+font-size:32px;
+line-height:66px;
+letter-spacing:normal;
+color:#303030;
 
 }
+
+search_section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+}
+sele{
+    font-family:Montserrat, Arial, sans-serif;
+font-size:20px;
+line-height:32px;
+text-align:center;
+letter-spacing:normal;
+}
+
+.finds {
+    display: flex;
+    justify-content: flex-start;
+   
+    padding: 10px 0;
+}
+
+.finds a {
+    color: #303030;
+    text-decoration: none;
+    padding: 20px 25px;
+    transition: background-color 0.3s;
+}
+
+.finds a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.buy{
+margin-left: 290px;
+margin-top:20px;
+}
+.rent{
+    margin-left: 25px;
+    margin-top:20px;
+    }
+    .newpro{
+        margin-left: 25px;
+        margin-top:20px;  
+    }
+    .pg{
+        margin-left: 25px;
+        margin-top:20px;  
+    } 
+    .plot{
+        margin-left: 25px;
+        margin-top:20px;  
+    }
+    .comm{
+        margin-left: 25px;
+        margin-top:20px; 
+    }
+    .post{
+        margin-left: 25px;
+        margin-top:20px; 
+    }
