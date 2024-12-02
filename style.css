@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 20px 25px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.post-property {
+    background-color: white;
+    color: #000;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.post-property:hover {
+    background-color: #FFD54F; 
+}
+.main{
+    background-color: #d8232a;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    margin-left: 144px;
+    margin-top:9px;
+    margin-bottom: 9px;
+}
+.location{
+    margin-left: 24px;
+    color:white;
+}
+.down-arrow1{
+    color: white;
+}
+.mb{
+    margin-left: 544px;
+    color:white;
+}
+.down-arrow2{
+    color: white;
+}
+.log{
+    color: white; 
+    padding-left: 10px;
+}
+.down-arrow3{
+    color: white;
+    padding-right: 10px;
+}
+.new{
+    background-color: #ffc72c;
+    color: #000;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.slideshow {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: slideshow 9s infinite;
+  }
+  
+  /* Apply staggered animation delays for each slide */
+  .slide:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .slide:nth-child(2) {
+    animation-delay: 3s;
+  }
+  
+  .slide:nth-child(3) {
+    animation-delay: 6s;
+  }
+  
+  /* Keyframes for slideshow animation */
+  @keyframes slideshow {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    33.33% {
+      opacity: 1;
+    }
+    43.33% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+.add{
+    margin-left: 144px;
+    
+
+}
