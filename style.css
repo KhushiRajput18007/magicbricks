@@ -74,10 +74,12 @@ body {
     font-weight: bold;
 }
 .slideshow {
-    width: 100%;
-    height: 300px; /* Adjust the height as needed */
+   width: 20%;
+    height: 200px; /* Adjust the height as needed */
     overflow: hidden;
     position: relative;
+   
+    margin: -205px 1110px ;
   }
   
   .slide {
@@ -191,3 +193,69 @@ margin-top:20px;
         margin-left: 25px;
         margin-top:20px; 
     }
+    
+    .here {
+        font-family: Arial, sans-serif;
+        
+        margin-left: 300px;
+        
+        margin: 0px 300px ;
+        width: 40%;
+    }
+    .search-bar {
+        display: flex;
+        align-items:flex-start;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 50px;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-bar > * {
+        margin: 0 8px;
+    }
+
+    .location {
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+        border-radius: 20px;
+        background-color: #ffecec;
+        color: #d40000;
+    }
+
+        .location svg {
+            margin-right: 5px;
+        }
+
+        .dropdown,
+        .budget {
+            display: flex;
+            align-items: center;
+            border: none;
+            background-color: transparent;
+            color: #333;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .divider {
+            height: 20px;
+            width: 1px;
+            background-color: #ddd;
+        }
+
+        .search-button {
+            background-color: #d40000;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .search-button:hover {
+            background-color: #b80000;
+        }
