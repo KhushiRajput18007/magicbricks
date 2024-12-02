@@ -88,9 +88,70 @@
                     alt=""></div>
             <div class="slide"><img src="mb-destination-projects-web.png" alt=""></div>
         </div>
+      
+        <div class="recc">Because you searched Mumbai
+        </div>
     </div>
-    <div class="dec">
-        
+    <!--cards-->
+    <div class="container">
+        <div class="card">
+            <h3>39K+ Properties listed for you</h3>
+            <p>Continue last search</p>
+            <a href="#">Continue last search &rarr;</a>
+            <img src="clock-icon.png" alt="Clock Icon">
+        </div>
+        <div class="card">
+            <h3>Get personalised property recommendations from us</h3>
+            <p>See all</p>
+            <a href="#">See all &rarr;</a>
+    
+        </div>
+        <div class="card">
+            <h3>Top Handpicked Projects for you</h3>
+            <p>See all</p>
+            <a href="#">See all &rarr;</a>
+            
+        </div>
+        <div class="card">
+            <h3>Top Exclusive Owner Properties</h3>
+            <p>See all</p>
+            <a href="#">See all &rarr;</a>
+           
+        </div>
     </div>
+
+    <!--form-->
+    
+    <form id="dataForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+       
+document.getElementById("dataForm").addEventListener("submit", function (event) {
+    event.preventDefault(); 
+
+    // Collect form data
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const password = document.getELementById("password").value;
+    // data in local storage
+    localStorage.setItem("name", name);
+    localStorage.setItem("email", email);
+    localStorage.setItems("password",password)
+    // Redirect to the second page
+    window.location.href = "second.html";
+});
+
+    </script>
+
 </body>
 </html>
