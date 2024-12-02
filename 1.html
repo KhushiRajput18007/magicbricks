@@ -1,103 +1,128 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Localities</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Explore</h2>
+        <p>Popular Localities in Mumbai</p>
+        <div class="cards">
+            <div class="card">
+                <h3>Lal Bahadur Shastri Road</h3>
+                <p>₹14,217 - 28,889 per sqft</p>
+                <p>4.0 ⭐ 52 Reviews</p>
+                <a href="#">37 Properties for Sale →</a>
+            </div>
+            <div class="card">
+                <h3>Mulund</h3>
+                <p>₹15,274 - 32,889 per sqft</p>
+                <p>4.0 ⭐ 17 Reviews</p>
+                <a href="#">71 Properties for Sale →</a>
+            </div>
+            <div class="card">
+                <h3>Mulund West</h3>
+                <p>₹15,750 - 28,889 per sqft</p>
+                <p>4.0 ⭐ 379 Reviews</p>
+                <a href="#">4375 Properties for Sale →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+<div class="container">
+    <div class="section overview">
+      <h2>OVERVIEW</h2> -->
+      <!-- Content for the Overview section -->
+    <!-- </div>
+    <div class="section gallery">
+      <h2>GALLERY</h2> -->
+      <!-- Content for the Gallery section -->
+    <!-- </div>
+    <div class="section location-advantages">
+      <h2>LOCATION ADVANTAGES</h2> -->
+      <!-- Content for the Location Advantages section -->
+    <!-- </div>
+    <div class="section project-detail">
+      <h2>PROJECT DETAIL</h2> -->
+      <!-- Content for the Project Detail section -->
+    <!-- </div>
+    <div class="section project-amenities">
+      <h2>PROJECT AMENITIES</h2> -->
+      <!-- Content for the Project Amenities section -->
+    <!-- </div>
+    <div class="section about-builder">
+      <h2>ABOUT BUILDER</h2> -->
+      <!-- Content for the About Builder section -->
+    <!-- </div>
+  </div>
+  <script>
+    const sections = document.querySelectorAll('.section');
+let currentIndex = 0;
+
+function showNextSection() {
+  if (currentIndex < sections.length) {
+    sections[currentIndex].classList.add('active');
+    currentIndex++;
+    setTimeout(showNextSection, 3000); // Delay before showing the next section (3 seconds) -->
+  <!-- }
+}
+
+showNextSection();
+  </script>
+</body>
+</html> -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f5f5f5;
-    }
-
-    .search-bar {
-        display: flex;
-        align-items: center;
-        background-color: white;
-        border: 1px solid #ddd;
-        border-radius: 50px;
-        padding: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .search-bar > * {
-        margin: 0 8px;
-    }
-
-    .location {
-        display: flex;
-        align-items: center;
-        padding: 5px 10px;
-        border-radius: 20px;
-        background-color: #ffecec;
-        color: #d40000;
-    }
-
-        .location svg {
-            margin-right: 5px;
-        }
-
-        .dropdown,
-        .budget {
-            display: flex;
-            align-items: center;
-            border: none;
-            background-color: transparent;
-            color: #333;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        .divider {
-            height: 20px;
-            width: 1px;
-            background-color: #ddd;
-        }
-
-        .search-button {
-            background-color: #d40000;
-            color: white;
-            border: none;
-            border-radius: 50px;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        .search-button:hover {
-            background-color: #b80000;
-        }
-</style>
+    <link rel="stylesheet" href="1.css">
 </head>
 <body>
-    <div class="search-bar">
-        <div class="location">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                <path d="M12.166 8.94c-.256.386-.638.865-1.1 1.372-.93 1.034-2.178 2.126-3.066 2.798a.513.513 0 0 1-.6 0c-.888-.672-2.136-1.764-3.066-2.798-.462-.507-.844-.986-1.1-1.372-.715-.968-1.166-2.082-1.166-3.415 0-2.828 2.239-5.004 5-5.004s5 2.176 5 5.004c0 1.333-.451 2.447-1.166 3.415zm-.496.657C12.194 9.16 13 8.05 13 6.525 13 3.774 10.989 1.998 8 1.998c-2.989 0-5 1.776-5 4.527 0 1.525.806 2.635 1.33 3.072.4.334 1.034.811 1.773 1.345.958.683 2.146 1.486 2.897 2.013.75-.527 1.939-1.33 2.897-2.013.739-.534 1.373-1.011 1.773-1.345z"/>
-                <path d="M8 9.5a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/>
-            </svg>
-            Mumbai
-        </div>
-        <span>Add more...</span>
-        <div class="divider"></div>
-        <button class="dropdown">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1-.5-.5V10H7v3.5a.5.5 0 0 1-.5.5h-3A1.5 1.5 0 0 1 2 13.5v-4.207l6-6zm0-.707a1 1 0 0 1 .707.293l6.5 6.5a1 1 0 0 1-.707 1.707H13v4a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-3H7v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-4H.5a1 1 0 0 1-.707-1.707l6.5-6.5A1 1 0 0 1 8 2.586z"/>
-            </svg>
-            Flat
-        </button>
-        <div class="divider"></div>
-        <button class="budget">
-            ₹ Budget
-        </button>
-        <button class="search-button">Search</button>
+    
+<div class="card-container">
+    <div class="card sponsored">
+      <img src="https://cdn.staticmb.com/property/microsite/mbimages/itarget/01099271.jpg" alt="Avant Heritage V">
+      <div class="card-content">
+        <h3>Avant Heritage V</h3>
+        <p>Jogeshwari East, Mumbai</p>
+        <p>2 BHK Flats</p>
+        <p>₹ 1.35 Cr onwards</p>
+        <p class="sponsored-tag">SPONSORED</p>
+        <p class="marketed-by">Marketed by Avant Group</p>
+      </div>
     </div>
-</body>
-</html>
+    <div class="card sponsored">
+      <img src="https://cdn.staticmb.com/property/microsite/mbimages/itarget/01101019.jpg" alt="Ruparel Panache">
+      <div class="card-content">
+        <h3>Ruparel Panache</h3>
+        <p>Santacruz West, Mumbai</p>
+        <p>2, 3 BHK Flats</p>
+        <p>₹ 4.73 Cr onwards</p>
+        <p class="sponsored-tag">SPONSORED</p>
+        <p class="marketed-by">Marketed by Ruparel Realty</p>
+      </div>
+    </div>
+  </div>
+  </body>
+  </html>

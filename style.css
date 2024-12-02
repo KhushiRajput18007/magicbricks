@@ -75,7 +75,7 @@ body {
 }
 .slideshow {
    width: 20%;
-    height: 200px; /* Adjust the height as needed */
+    height: 200px;
     overflow: hidden;
     position: relative;
    
@@ -92,7 +92,7 @@ body {
     animation: slideshow 9s infinite;
   }
   
-  /* Apply staggered animation delays for each slide */
+  /*auto delay effect */
   .slide:nth-child(1) {
     animation-delay: 0s;
   }
@@ -105,7 +105,7 @@ body {
     animation-delay: 6s;
   }
   
-  /* Keyframes for slideshow animation */
+  /* Keyframes */
   @keyframes slideshow {
     0% {
       opacity: 0;
@@ -273,7 +273,7 @@ margin-top:94px;
         }
       
 
-        .container {
+        .container1 {
             display: flex;
             gap: 20px;
             font-family: Arial, sans-serif;
@@ -287,7 +287,7 @@ margin-top:94px;
             
         }
 
-        .card {
+        .card1 {
             background-color: #fff7e6;
             border: 1px solid #ffdca8;
             border-radius: 10px;
@@ -296,25 +296,25 @@ margin-top:94px;
             width: 250px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        .card h3 {
+        .card1 h3 {
             font-size: 24px;
             color: #f58220;
             margin: 0;
         }
 
-        .card p {
+        .card1 p {
             margin: 10px 0 20px;
             font-size: 16px;
             color: #333;
         }
 
-        .card a {
+        .card1 a {
             color: #d32f2f;
             text-decoration: none;
             font-weight: bold;
         }
 
-        .card a:hover {
+        .card1 a:hover {
             text-decoration: underline;
         }
 
@@ -328,3 +328,104 @@ margin-top:94px;
             backdrop-filter: blur(10px);
             box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
+        .pg2 {
+            width: 80%;
+             height: 400px;
+             overflow: hidden;
+             position: relative;
+            margin-left: 150px;
+           border-radius: 10px;
+           }
+           
+           .slide1 {
+             width: 100%;
+             height: 100%;
+             position: absolute;
+             top: 0;
+             left: 0;
+             opacity: 0;
+             animation: slideshow 9s infinite;
+           }
+           
+           /*animation delay*/
+           .slide1:nth-child(1) {
+             animation-delay: 0s;
+           }
+           
+           .slide1:nth-child(2) {
+             animation-delay: 3s;
+           }
+           
+           .slide1:nth-child(3) {
+             animation-delay: 6s;
+           }
+           
+           /* Keyframes */
+           @keyframes pg2 {
+             0% {
+               opacity: 0;
+             }
+             10% {
+               opacity: 1;
+             }
+             33.33% {
+               opacity: 1;
+             }
+             43.33% {
+               opacity: 0;
+             }
+             100% {
+               opacity: 0;
+             }
+           }
+
+
+           .card-container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+          }
+          
+          .card {
+            width: 700px; 
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            display: flex; 
+          }
+          
+          .card img {
+            width: 300px; 
+            height: 200px;
+            object-fit: cover;
+          }
+          
+          .card-content {
+            flex: 1; 
+            padding: 16px;
+          }
+          
+          .card-content h3 {
+            margin-top: 0;
+            font-size: 20px;
+            font-weight: 600;
+          }
+          
+          .card-content p {
+            margin: 8px 0;
+            font-size: 14px;
+            color: #555;
+          }
+          
+          .sponsored-tag {
+            color: #00a651;
+            font-weight: 600;
+          }
+          
+          .marketed-by {
+            font-size: 12px;
+            color: #888;
+          }
+          
+          .sponsored {
+            border-top: 4px solid #00a651;
+          }
